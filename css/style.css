@@ -1,0 +1,229 @@
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#next_match{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+#banniere
+{
+    background: url(images_site/banniere_site.jpg) no-repeat;
+    position: relative;
+
+}
+
+#logo_site
+{
+    display: flex;
+}
+
+.navbar{
+    background:  rgb(9, 70, 131)!important;
+}
+
+.dropdown{
+    border-radius:0;
+    border:0;
+}
+.dropdown-menu{
+    background: #9cc9eb;
+    border:0;
+    top:80%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background:rgb(172, 203, 195);
+    color: black;
+}
+.nav-item:hover{
+    background:rgb(172, 203, 195);
+    color: black;
+}
+.dropdown-menu a{
+    color:black;
+} 
+.navbar .nav-item .nav-link{
+    color:black !important; 
+    
+}
+.navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link{
+    color: rgb(9, 70, 131);
+    
+}
+
+.re{
+    background-color: rgb(9, 70, 131);
+}
+
+  /*css pour les tables */
+
+
+
+  table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+    
+ }
+  table * {
+    position: relative;
+   
+ }
+  table td, table th {
+    padding-left: 8px;
+ }
+  table thead tr {
+    height: 60px;
+    background: #86cbff;
+    font-size: 16px;
+ }
+  table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #e3f1d5;
+ }
+  table tbody tr:last-child {
+    border: 0;
+ }
+  table td, table th {
+    text-align: left;
+ }
+  table td.l, table th.l {
+    text-align: right;
+ }
+  table td.c, table th.c {
+    text-align: center;
+ }
+  table td.r, table th.r {
+    text-align: center;
+ }
+  @media screen and (max-width: 35.5em) {
+    table {
+      display: block;
+   }
+    table > *, table tr, table td, table th {
+      display: block;
+   }
+    table thead {
+      display: none;
+   }
+    table tbody tr {
+      height: auto;
+      padding: 8px 0;
+   }
+    table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+   }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+   }
+    table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+   }
+    table tbody tr td:nth-child(1):before {
+      content: "Code";
+   }
+    table tbody tr td:nth-child(2):before {
+      content: "Stock";
+   }
+    table tbody tr td:nth-child(3):before {
+      content: "Cap";
+   }
+    table tbody tr td:nth-child(4):before {
+      content: "Inch";
+   }
+    table tbody tr td:nth-child(5):before {
+      content: "Box Type";
+   }
+ }
+  blockquote {
+    color: white;
+    text-align: center;
+ }
+  
+/* footer*/
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: rgb(202, 225, 247);
+    /* Margin bottom by footer height */
+  margin-bottom: 400px;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 10000em) {
+    body {
+      margin-bottom: 400px;
+    }
+    .footer {
+      height: 300px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+  
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
